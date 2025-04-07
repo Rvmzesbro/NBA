@@ -1,2 +1,4 @@
 ﻿1. Teams Main - Сделать Binding в DataGrid
-2. Teams Detail - Сделать Binding в Image, Binding Сезонов в ComboBox
+2. Teams Detail - Сделать Binding в Image
+	Binding Сезонов в ComboBox
+	Binding в DGRoster and DGMatchup

@@ -60,25 +60,165 @@
                 <StackPanel Orientation="Horizontal">
                     <TabControl Height="250" Width="768">
                         <TabItem Header="Roster">
-                            
+                            <DataGrid x:Name="DGRoster"
+                                      >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="No."/>
+                                    <DataGridTextColumn Header="Name"/>
+                                    <DataGridTextColumn Header="Position"/>
+                                    <DataGridTextColumn Header="DateofBirth"/>
+                                    <DataGridTextColumn Header="College"/>
+                                    <DataGridTextColumn Header="Experience"/>
+                                    <DataGridTextColumn Header="Salary"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
                         </TabItem>
                         
                         <TabItem Header="Matchup">
-                        
+                            <DataGrid x:Name="DGMatchup"
+          >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Date"/>
+                                    <DataGridTextColumn Header="Matchup Type"/>
+                                    <DataGridTextColumn Header="Opponent"/>
+                                    <DataGridTextColumn Header="Start Time"/>
+                                    <DataGridTextColumn Header="Result"/>
+                                    <DataGridTextColumn Header="Location"/>
+                                    <DataGridTextColumn Header="Status"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
                         </TabItem>
 
                         <TabItem Header="Lineup">
+                            <ScrollViewer>
+                                
+                            <StackPanel>
+                                <Image/>
+                                <StackPanel Orientation="Horizontal">
+                                    <Grid
+                                          Margin="30 60 0 0"
+                                          Width="140"
+                                          Height="70">
 
+                                        <Border Background="LightGray" 
+                                                Padding="10" 
+                                                >
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding}" FontWeight="Bold" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                            </StackPanel>
+                                        </Border>
+
+                                        <Border Background="Yellow" Padding="2" Margin="-10 -10 0 0" 
+                                HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <TextBlock Text="PF" FontWeight="Bold" Foreground="Blue" />
+                                        </Border>
+                                    </Grid>
+
+                                    <Grid 
+                                          VerticalAlignment="Top" 
+                                          Margin="150 35 0 0"
+                                        Height="70">
+
+                                        <Border Background="LightGray" Padding="10" Width="140">
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding}" FontWeight="Bold" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                            </StackPanel>
+                                        </Border>
+
+                                        <Border Background="Yellow" Padding="2" Margin="-10 -10 0 0" 
+HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <TextBlock Text="C" FontWeight="Bold" Foreground="Blue" />
+                                        </Border>
+                                    </Grid>
+
+                                    <Grid 
+                                          Margin="130 60 0 0"
+                                          Width="140" Height="70">
+
+                                        <Border Background="LightGray" Padding="10" Width="140">
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding}" FontWeight="Bold" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                            </StackPanel>
+                                        </Border>
+
+                                        <Border Background="Yellow" Padding="2" Margin="-10 -10 0 0" 
+HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <TextBlock Text="SF" FontWeight="Bold" Foreground="Blue" />
+                                        </Border>
+                                    </Grid>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal">
+                                    <Grid  
+                                          Width="140"
+                                        Height="70"
+                                          Margin="70 13 0 0">
+
+                                        <Border Background="LightGray" Padding="10" Width="140">
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding}" FontWeight="Bold" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                            </StackPanel>
+                                        </Border>
+
+                                        <Border Background="Yellow" Padding="2" Margin="-10 -10 0 0" 
+HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <TextBlock Text="SG" FontWeight="Bold" Foreground="Blue" />
+                                        </Border>
+                                    </Grid>
+
+                                    <Grid Margin="330 13 0 0">
+
+                                        <Border Background="LightGray" Padding="10" Width="140">
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding}" FontWeight="Bold" Foreground="Blue" />
+                                                <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                    <TextBlock Text="{Binding}" Foreground="Blue" />
+                                                </StackPanel>
+                                        </Border>
+
+                                        <Border Background="Yellow" Padding="2" Margin="-10 -10 0 0" 
+                                                HorizontalAlignment="Left" VerticalAlignment="Top">
+                                            <TextBlock Text="PG" FontWeight="Bold" Foreground="Blue" />
+                                        </Border>
+                                    </Grid>
+                                </StackPanel>
+                                
+                            </StackPanel>
+                            </ScrollViewer>
+                            
                         </TabItem>
                         
                     </TabControl>
-                    <StackPanel>
-                        <ComboBox Margin="-1000 0 0 210"
+                    <StackPanel Orientation="Horizontal">
+                        <ComboBox Margin="-1000 0 0 228"
                                   Width="100"
-                                  Height="15">
+                                  Height="20"
+                                  x:Name="CBSeason">
                             <!--Binding-->
                         </ComboBox>
-                        
+                        <Border Width="50"
+                                Height="20"
+                                CornerRadius="3" 
+                                BorderBrush="LightGray"
+                                BorderThickness="1"
+                                Margin="-830 0 0 228">
+                            <Button x:Name="BTSearch" 
+                                     Width="50" 
+                                     Height="20" 
+                                     Click="BTSearch_Click"
+                                     BorderBrush="LightGray">
+                                <TextBlock Text="Search"
+                                           Margin="0 -3 4 0"/>
+                            </Button>
+                        </Border>
                     </StackPanel>
                     
                 </StackPanel>

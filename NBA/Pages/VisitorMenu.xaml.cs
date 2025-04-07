@@ -34,5 +34,11 @@ namespace NBA.Pages
         {
             NavigationService.Navigate(new TeamsMain());
         }
+
+        private void Players_Clieck(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PlayersMain());
+
+        }
     }
 }

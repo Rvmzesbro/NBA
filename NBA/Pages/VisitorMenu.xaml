@@ -67,7 +67,7 @@
                                     Click="BTTeams_Click"/>
                             <Button Width="150" 
                                     Height="40"
-                                    Content="Players"/>
+                                    Content="Players" Click="Players_Clieck"/>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <Button Width="150"

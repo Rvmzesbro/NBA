@@ -29,5 +29,10 @@ namespace NBA.Pages
         {
             NavigationService.Navigate(new TeamsMain());
         }
+
+        private void BTSearch_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PlayersMain());
+        }
     }
 }

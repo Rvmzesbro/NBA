@@ -58,38 +58,70 @@
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
-                            <DataGrid x:Name="DGAtlantic" 
+                            <ListView x:Name="DGAtlantic" 
                                       Grid.Column="0"
                                       Margin="0 0 10 0"
                                       MouseDoubleClick="DGAtlantic_MouseDoubleClick">
 
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Atlantic"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                                
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Atlantic" Width="225"/>
+                                    </GridView>
+                                </ListView.View>
 
-                            </DataGrid>
+                            </ListView>
+                            
 
-                            <DataGrid x:Name="DGCentral"
+
+                            <ListView x:Name="DGCentral"
                                       Grid.Column="1"
                                       MouseDoubleClick="DGCentral_MouseDoubleClick">
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Central"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
 
-                            </DataGrid>
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Central" Width="234"/>
+                                    </GridView>
+                                </ListView.View>
 
-                            <DataGrid x:Name="DGSoutheast"
+                            </ListView>
+
+                            <ListView x:Name="DGSoutheast"
                                       Grid.Column="2" 
                                       MouseDoubleClick="DGSoutheast_MouseDoubleClick">
 
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Southeast"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
 
-                            </DataGrid>
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Southeast" Width="235"/>
+                                    </GridView>
+                                </ListView.View>
+
+                            </ListView>
 
                         </Grid>
                     </TabItem>
@@ -102,38 +134,72 @@
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
-                            <DataGrid x:Name="DGNorthwest" 
+                            <ListView x:Name="DGNorthwest" 
                                       Grid.Column="0"
                                       Margin="0 0 10 0"
                                       MouseDoubleClick="DGNorthwest_MouseDoubleClick">
 
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Northwest"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
 
-                            </DataGrid>
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Northwest"
+                                                        Width="223"
+                                                        />
+                                    </GridView>
+                                </ListView.View>
 
-                            <DataGrid x:Name="DGPacific"
+                            </ListView>
+
+                            <ListView x:Name="DGPacific"
                                       Grid.Column="1"
                                       MouseDoubleClick="DGPacific_MouseDoubleClick">
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Pacific"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
 
-                            </DataGrid>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
 
-                            <DataGrid x:Name="DGSouthwest"
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Pacific" 
+                                                        Width="233"/>
+                                    </GridView>
+                                </ListView.View>
+
+                            </ListView>
+
+                            <ListView x:Name="DGSouthwest"
                                       Grid.Column="2"
                                       MouseDoubleClick="DGSouthwest_MouseDoubleClick">
 
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Southwest"
-                                                        Width="246"/>
-                                </DataGrid.Columns>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Image/>
+                                            <TextBlock Text="{Binding}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
 
-                            </DataGrid>
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Southwest" Width="235"/>
+                                    </GridView>
+                                </ListView.View>
+
+                            </ListView>
 
                         </Grid>
                     </TabItem>
