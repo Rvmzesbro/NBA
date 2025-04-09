@@ -69,5 +69,15 @@ namespace NBA.Pages
                 TBSearchName.Text = "Name";
             }
         }
+
+        private void DGPlayers_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            NavigationService.Navigate(new PlayerDetail());
+        }
+
+        private void DGPlayers_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new PlayerDetail());
+        }
     }
 }

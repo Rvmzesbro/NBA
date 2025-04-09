@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PlayersMain">
 
-    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
@@ -95,12 +95,35 @@
                 </Border>
             </StackPanel>
 
-
-            <StackPanel Grid.Row="2" HorizontalAlignment="Center"
-    VerticalAlignment="Bottom">
-                <TextBlock Text="gggggggggggggggggggggggggggggg"/>
+            <StackPanel Grid.Row="1">
+                <DataGrid x:Name="DGPlayers"
+                          SelectionChanged="DGPlayers_SelectionChanged"
+                          MouseDoubleClick="DGPlayers_MouseDoubleClick">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn/>
+                        <DataGridTextColumn Header="No."/>
+                        <DataGridTextColumn Header="Name"/>
+                        <DataGridTextColumn Header="Team"/>
+                        <DataGridTextColumn Header="Position"/>
+                        <DataGridTextColumn Header="Weight"/>
+                        <DataGridTextColumn Header="Height"/>
+                        <DataGridTextColumn Header="Experience"/>
+                        <DataGridTextColumn Header="Country"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <TextBlock Text="fsdfdsf"/>
             </StackPanel>
 
+            
+
         </StackPanel>
+        <Border Grid.Row="2" 
+            Background="#6995c2"
+            Height="20"
+            VerticalAlignment="Bottom">
+            <TextBlock Text="The current season is 2016-2017, and the NBA already has a history of 71 years"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+        </Border>
     </Grid>
 </Page>

@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="TeamDetail">
 
-    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
@@ -225,11 +225,16 @@ HorizontalAlignment="Left" VerticalAlignment="Top">
             </StackPanel>
 
 
-            <StackPanel Grid.Row="2" HorizontalAlignment="Center"
-    VerticalAlignment="Bottom">
-                <TextBlock Text="gggggggggggggggggggggggggggggg"/>
-            </StackPanel>
+            
 
         </StackPanel>
+        <Border Grid.Row="2" 
+                    Background="#6995c2"
+                    Height="20"
+                    VerticalAlignment="Bottom">
+            <TextBlock Text="The current season is 2016-2017, and the NBA already has a history of 71 years"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
     </Grid>
 </Page>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\App.xaml
-62117239317
+71737842215
 21356928407
-31-36813900
+32468081282
 18-1009334707
-MainWindow.xaml;Pages\MainScreen.xaml;Pages\PlayersMain.xaml;Pages\TeamDetail.xaml;Pages\TeamsMain.xaml;Pages\VisitorMenu.xaml;
+MainWindow.xaml;Pages\MainScreen.xaml;Pages\PlayerDetail.xaml;Pages\PlayersMain.xaml;Pages\TeamDetail.xaml;Pages\TeamsMain.xaml;Pages\VisitorMenu.xaml;
 
 False
 

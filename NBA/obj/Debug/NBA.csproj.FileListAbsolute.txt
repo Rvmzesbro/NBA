@@ -29,3 +29,5 @@ C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\TeamDetail.g.
 C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\TeamDetail.baml
 C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\PlayersMain.g.cs
 C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\PlayersMain.baml
+C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\PlayerDetail.g.cs
+C:\Users\web2\Desktop\VisualStudioProjects\NBA\NBA\obj\Debug\Pages\PlayerDetail.baml

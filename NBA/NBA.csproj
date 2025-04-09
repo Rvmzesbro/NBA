@@ -80,6 +80,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\MatchupList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PlayerDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\PlayersMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -170,6 +178,12 @@
     <Compile Include="Pages\MainScreen.xaml.cs">
       <DependentUpon>MainScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\MatchupList.xaml.cs">
+      <DependentUpon>MatchupList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PlayerDetail.xaml.cs">
+      <DependentUpon>PlayerDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PlayersMain.xaml.cs">
       <DependentUpon>PlayersMain.xaml</DependentUpon>
     </Compile>
@@ -219,6 +233,7 @@
     <Resource Include="Resources\logo.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\person.png" />
     <Resource Include="Comments.txt" />
     <Content Include="Models\NBA.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

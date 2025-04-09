@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\playersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\playersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\teamdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\teamdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\teamdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\teamdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\mainscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\playersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playersmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\visitormenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\visitormenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|c:\\users\\web2\\desktop\\visualstudioprojects\\nba\\nba\\pages\\teamsmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|c:\\users\\web2\\desktop\\visualstudioprojects\\nba\\nba\\pages\\playerdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playerdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\playersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playersmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|c:\\users\\web2\\desktop\\visualstudioprojects\\nba\\nba\\pages\\playerdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\playerdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\teamsmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\teamsmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|c:\\users\\web2\\desktop\\visualstudioprojects\\nba\\nba\\pages\\teamdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\teamdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\teamdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|solutionrelative:nba\\pages\\teamdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13E3ECC2-6727-411B-864F-4D52BF72E5A8}|NBA\\NBA.csproj|C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\nba\\pages\\teamsmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayersMain.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayersMain.xaml.cs",
-              "RelativeDocumentMoniker": "NBA\\Pages\\PlayersMain.xaml.cs",
-              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayersMain.xaml.cs",
-              "RelativeToolTip": "NBA\\Pages\\PlayersMain.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA5wEQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T10:14:20.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PlayersMain.xaml",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayersMain.xaml",
               "RelativeDocumentMoniker": "NBA\\Pages\\PlayersMain.xaml",
@@ -75,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "TeamDetail.xaml.cs",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\TeamDetail.xaml.cs",
               "RelativeDocumentMoniker": "NBA\\Pages\\TeamDetail.xaml.cs",
@@ -83,12 +78,11 @@
               "RelativeToolTip": "NBA\\Pages\\TeamDetail.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:52:12.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:52:12.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TeamDetail.xaml",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\TeamDetail.xaml",
               "RelativeDocumentMoniker": "NBA\\Pages\\TeamDetail.xaml",
@@ -100,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TeamsMain.xaml.cs",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\TeamsMain.xaml.cs",
               "RelativeDocumentMoniker": "NBA\\Pages\\TeamsMain.xaml.cs",
@@ -108,8 +102,7 @@
               "RelativeToolTip": "NBA\\Pages\\TeamsMain.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:34:12.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T10:34:12.679Z"
             },
             {
               "$type": "Document",
@@ -125,7 +118,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MainScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\MainScreen.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\MainScreen.xaml",
+              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\MainScreen.xaml*",
+              "RelativeToolTip": "NBA\\Pages\\MainScreen.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T15:24:44.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "VisitorMenu.xaml",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\VisitorMenu.xaml",
               "RelativeDocumentMoniker": "NBA\\Pages\\VisitorMenu.xaml",
@@ -137,19 +142,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainScreen.xaml",
-              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\MainScreen.xaml",
-              "RelativeDocumentMoniker": "NBA\\Pages\\MainScreen.xaml",
-              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\MainScreen.xaml",
-              "RelativeToolTip": "NBA\\Pages\\MainScreen.xaml",
+              "DocumentIndex": 3,
+              "Title": "PlayerDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayerDetail.xaml",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PlayerDetail.xaml",
+              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayerDetail.xaml",
+              "RelativeToolTip": "NBA\\Pages\\PlayerDetail.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T15:24:44.072Z",
+              "WhenOpened": "2025-04-08T12:33:43.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "PlayerDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayerDetail.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PlayerDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayerDetail.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PlayerDetail.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:40:53.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayersMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayersMain.xaml.cs",
+              "RelativeDocumentMoniker": "NBA\\Pages\\PlayersMain.xaml.cs",
+              "ToolTip": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\PlayersMain.xaml.cs",
+              "RelativeToolTip": "NBA\\Pages\\PlayersMain.xaml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwE8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:14:20.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainScreen.xaml.cs",
               "DocumentMoniker": "C:\\Users\\web2\\Desktop\\VisualStudioProjects\\NBA\\NBA\\Pages\\MainScreen.xaml.cs",
               "RelativeDocumentMoniker": "NBA\\Pages\\MainScreen.xaml.cs",

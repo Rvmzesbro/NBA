@@ -1,0 +1,205 @@
+﻿<Page x:Class="NBA.Pages.PlayerDetail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NBA.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PlayerDetail">
+
+    
+        <Grid  HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+                <StackPanel Grid.Row="0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/logo.jpg" 
+                Width="20"/>
+                        <TextBlock Text="NBA Management System"
+                    FontSize="15"
+                    Margin="10 15 0 0"/>
+                        <TextBlock Text="Players Main"
+                    FontSize="20"
+                    FontWeight="SemiBold"
+                    Margin="100 10 0 0"/>
+                        <Border Width="50"
+                                 Height="20"
+                                 CornerRadius="3" 
+                                 BorderBrush="LightGray"
+                                 BorderThickness="1"
+                                 Margin="300 0 0 0">
+                            <Button x:Name="BTBack" 
+                     Width="50" 
+                     Height="20" 
+                     Click="BTBack_Click"
+                     BorderBrush="LightGray">
+                                <TextBlock Text="Back"
+                            Margin="0 -3 4 0"/>
+                            </Button>
+                        </Border>
+                    </StackPanel>
+                    <Border BorderBrush="Black"
+             BorderThickness="0.5"
+             Margin="0 5 0 30"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0">
+
+                            <StackPanel Orientation="Horizontal">
+
+                                <StackPanel>
+                                    <Image Source="/Resources/person.png"
+                                           Width="60"
+                                           Height="70"
+                                           Margin="0 0 0 0"/>
+                                </StackPanel>
+
+                                <StackPanel Margin="10 0 0 0">
+                                    <TextBlock Text="Zody Aeller"/>
+                                    <Border BorderBrush="Black" 
+                                            BorderThickness="0.5"
+                                            Margin="0 0 0 2"
+                                            Width="300"/>
+                                    
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0 0 0 2">
+                                        <TextBlock Text="#40"
+                                                   Margin="0 0 10 0"/>
+                                        <Border BorderBrush="Black"
+                                                BorderThickness="0.5"
+                                                Margin="0 0 10 0"/>
+                                        <TextBlock Text="2.05"
+                                                   Margin="0 0 10 0"/>
+                                        <Border BorderBrush="Black" 
+                                                BorderThickness="0.5"
+                                                Margin="0 0 10 0"/>
+                                        <TextBlock Text="Charlotte Hornets"/>
+                                    </StackPanel>
+                                    
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="0 0 0 2">
+                                        <TextBlock Text="Born"
+                                                   Margin="0 0 38 0"/>
+                                        <TextBlock Text="1992-10-05"
+                                                   Margin="0 0 30 0"/>
+                                        <TextBlock Text="Experience"
+                                                   Margin="0 0 30 0"/>
+                                        <TextBlock Text="3 Years"/>
+                                    </StackPanel>
+                                    
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="College"
+                                                   Margin="0 0 23 0"/>
+                                        <TextBlock Text="Indiana"
+                                                   Margin="0 0 52 0"/>
+                                        <TextBlock Text="Salary"
+                                                   Margin="0 0 56 0"/>
+                                        <TextBlock Text="$318"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                
+                            </StackPanel>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+
+                            <TextBlock Text="2016-2017 Season"
+                                       Margin="0 0 0 5"/>
+                            <DataGrid Width="182" 
+                                      HorizontalAlignment="Left"
+                                      Margin="0 0 0 5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="PPG"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="APG"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="RPG"
+                                                        Width="60"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <TextBlock Text="Career"
+                                       Margin="0 0 0 5"/>
+                            <DataGrid Width="182" 
+                                      HorizontalAlignment="Left">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="PPG"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="APG"
+                                                        Width="60"/>
+                                    <DataGridTextColumn Header="RPG"
+                                                        Width="60"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+
+                            <Border BorderBrush="Black"
+                                    BorderThickness="0.5"
+                                    Margin="10"
+                                    Height="200">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal"
+                                                Margin="10">
+                                        <TextBlock Text="Date:"
+                                                   Margin="0 0 10 0"
+                                                   VerticalAlignment="Center"/>
+                                        <DatePicker Margin="0 0 10 0"/>
+                                        <TextBlock Text="-"
+                                                   Margin="0 0 10 0"/>
+                                        <DatePicker Margin="0 0 10 0"/>
+                                        <Border BorderBrush="Black"
+                                                BorderThickness="0.5"
+                                                CornerRadius="3"
+                                                Width="52"
+                                                Height="22">
+                                            <Button 
+                                                    Width="50"
+                                                    Height="20"
+                                                    BorderBrush="LightBlue"
+                                                    Background="LightBlue">
+                                                <TextBlock Text="Search"/>
+                                            </Button>
+                                        </Border>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                
+
+            </StackPanel>
+        <Border Grid.Row="2" 
+            Background="#6995c2"
+            Height="20"
+            VerticalAlignment="Bottom">
+            <TextBlock Text="The current season is 2016-2017, and the NBA already has a history of 71 years"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+        </Border>
+    </Grid>
+    
+</Page>
